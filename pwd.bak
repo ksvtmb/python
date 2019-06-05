@@ -1,0 +1,9 @@
+# программа проверки пароля
+print('pwd.py is called!')
+raise RuntimeError("We got here!")
+
+password=input("молви \"друг\" и проходи!");
+if password=="drug":
+    print("access granted");
+else:
+    print("access denied");
