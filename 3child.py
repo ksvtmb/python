@@ -2,7 +2,7 @@
 
 response=""
 
-while response!="pass":
+while response!="shut up":
     response=input("why?\n")
 
 print ("Hm, ok!")
