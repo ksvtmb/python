@@ -35,3 +35,9 @@ print("You sold a gem and bought a magic crystal for gold coins")
 inventory[5:7]=["magic crystal"]
 
 print("You new eq is:",inventory)
+
+# delete item
+print("with fight with troll you broken a shield")
+del (inventory[2])
+print("You new eq is:",inventory)
+
