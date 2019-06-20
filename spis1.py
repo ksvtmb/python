@@ -27,3 +27,11 @@ print("So! now you eq is:",inventory)
 print("you changed sword to mace")
 inventory[0]="mace"
 print("So! and you eq is:",inventory)
+
+# замена двух элементов кортежа, на один
+
+print("You sold a gem and bought a magic crystal for gold coins")
+
+inventory[5:7]=["magic crystal"]
+
+print("You new eq is:",inventory)
