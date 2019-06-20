@@ -10,3 +10,7 @@ print("in you equ is a:", len(inventory), "items")
 
 if "heal potion" in inventory:
     print("you will live")
+# show selected item in inventory
+
+index=int(input("tell me index you eq: "))
+print("ok. you selected",inventory[index])
