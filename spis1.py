@@ -15,3 +15,10 @@ if "heal potion" in inventory:
 
 index=int(input("tell me index you eq: "))
 print("ok. you selected",inventory[index])
+
+# join 2 list
+chest=["gems", "golden coins"]
+print ("you find a chest!!! and in it lies:", chest)
+print("you got content a chest")
+inventory+=chest
+print("So! now you eq is:",inventory)
