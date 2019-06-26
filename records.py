@@ -28,3 +28,16 @@ while choise!="0":
     elif choise=="2":
         score=int(input("add you record: "))
         scores.append(score)
+        print("scores is added by new values")
+    elif choise=="3":
+        score=int(input("which record must delete?: "))
+        if score in scores:
+            scores.remove(score)
+            print("Done! record", score,"deleted")
+        else:
+            print("record:", score,"is not found")
+    elif choise=="4":
+        scores.sort(reverse=True)
+        print("scores is sorted!")
+    else:
+        print("incorect choose!")
