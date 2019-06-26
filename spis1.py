@@ -41,3 +41,8 @@ print("with fight with troll you broken a shield")
 del (inventory[2])
 print("You new eq is:",inventory)
 
+# del item in list by a slice
+print("thiefs steal mace and helmet!!!")
+del inventory[:2]
+print("You new eq is:",inventory)
+
